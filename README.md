@@ -1,7 +1,7 @@
 # parts-swift
 object parts for swift
 
-***Control Object***
+**Control Object**
 ---
 
 ## SHStepper
