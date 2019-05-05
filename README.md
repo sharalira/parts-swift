@@ -1,13 +1,16 @@
 # parts-swift
 object parts for swift
 
-## Control Object
+***Control Object***
+---
 
-### SHStepper
+## SHStepper
 
 SHStepper is simple object.
 
-#### Usage
+![Screen Shot SHStepper](ScreenShot/ScreenShot-SHStepper.png)
+
+### Usage
 
 Add file "SHStepper.swift" to your project.
 
