@@ -58,12 +58,6 @@ Update object size and position
 
 Add file "SHSelector.swift" to your project.
 
-Object define.
-
-```Swift
-    let stepper = SHStepper()
-```
-
 Setup object and add to View or SubView
 
 ```Swift
