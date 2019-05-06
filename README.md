@@ -50,3 +50,44 @@ Update object size and position
     }
 ```
 
+## SHSelector
+
+![Screen Shot SHStepper](ScreenShot/ScreenShot-SHSelector.png)
+
+### Usage
+
+Add file "SHSelector.swift" to your project.
+
+Object define.
+
+```Swift
+    let stepper = SHStepper()
+```
+
+Setup object and add to View or SubView
+
+```Swift
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.lightGray
+
+        selector = SHSelector(parent: self)
+        selector.searchImageOn = true
+        selector.backgroundColor = UIColor.white
+        selector.items = ["Test1","Test2"]
+        selector.popupButtonSize = 30
+        self.view.addSubview(selector)
+    }
+```
+
+Update object size and position
+
+```Swift
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        selector.frame.size = CGSize(width: 200, height: 40)
+        selector.center = CGPoint(x: self.view.bounds.width / 2, y: self.view.bounds.height / 2)
+    }
+```
+
