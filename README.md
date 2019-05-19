@@ -1,5 +1,5 @@
 # parts-swift
-object parts for swift
+custom object parts for swift
 
 **Control Object**
 ---
